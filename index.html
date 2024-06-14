@@ -18,8 +18,8 @@
                         <p>{{ character.name }}</p>
                         <div v-if="character.showDetails" class="details">
                             <p>Status: {{ character.status }}</p>
-                            <p>Species: {{ character.species }}</p>
-                            <p>Gender: {{ character.gender }}</p>
+                            <p>Espécie: {{ character.species }}</p>
+                            <p>Gênero: {{ character.gender }}</p>
                         </div>
                     </div>
                 </li>
@@ -34,14 +34,14 @@
                 <h2>{{ selectedCharacter.name }}</h2>
                 <img :src="selectedCharacter.image" alt="">
                 <p>Status: {{ selectedCharacter.status }}</p>
-                <p>Species: {{ selectedCharacter.species }}</p>
-                <p>Gender: {{ selectedCharacter.gender }}</p>
-                <p>Origin: {{ selectedCharacter.origin.name }}</p>
-                <p>Location: {{ selectedCharacter.location.name }}</p>
+                <p>Espécie: {{ selectedCharacter.species }}</p>
+                <p>Gênero: {{ selectedCharacter.gender }}</p>
+                <p>Origem: {{ selectedCharacter.origin.name }}</p>
+                <p>Localização: {{ selectedCharacter.location.name }}</p>
             </div>
         </div>
     </div>
     
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
