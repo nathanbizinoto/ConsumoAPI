@@ -1,0 +1,67 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    flex: 1 0 15%;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+li:hover {
+    background-color: #555555;
+    color: whitesmoke;
+    transform: scale(1.05);
+}
+
+.character-card {
+    text-align: center;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 5px;
+}
+
+.character-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.alive {
+    background-color: #45D619;
+}
+
+.dead {
+    background-color: #ce122f;
+}
+
+.unknown {
+    background-color: #d5d5d5;
+}
+
+.load-more {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 12px;
+   
+}
